@@ -1,0 +1,45 @@
+#mainName{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#one{
+    padding-top: 32px;
+}
+#FLogo{
+    font-size: 24px;
+    color: rgb(30, 30, 39);
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+#SLogo{
+    font-size: 24px;
+    color: rgb(27,211,235);
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+.PagesLink{
+    color: rgb(92,92,99);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    transition: color 0.3s ease 0s;
+}
+.PagesLink:hover{
+    color: black;
+}
+.pagesList
+{
+    display: inline;
+    padding-left: 20px;
+}
+.icons{
+    padding-left: 20px;
+    display: inline;
+}
+/* #main{
+    margin: 0 auto 1em;
+} */
