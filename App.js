@@ -1,12 +1,12 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Header from "./Components/Header"
-import LandingBanner from "./Pages/LandingPage"
+import Mens1 from "./Pages/Mens1"
+import Routing from "./Pages/Routing"
 
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <LandingBanner />
+    <Routing/>
+    
     </div>
   );
 }

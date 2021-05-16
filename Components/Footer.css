@@ -1,0 +1,15 @@
+/* #help{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ */
+
+#footerRow{
+    padding-top: 40px;
+}
+#col{
+    text-align: left;
+}
+.FaqList{
+    display: block;
+}

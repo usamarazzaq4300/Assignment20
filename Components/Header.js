@@ -1,4 +1,5 @@
 import "./header.css"
+import {Link} from "react-router-dom"
 import SearchIcon from '@material-ui/icons/Search';
 import PersonIcon from '@material-ui/icons/Person';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -13,11 +14,11 @@ function Header() {
                         </div>
                         <div className="col-6"  id="one">
                             <ul>
-                                <li className="pagesList"><a className="PagesLink" href="#">Home</a></li>
-                                <li className="pagesList"><a className="PagesLink" href="#">Men</a></li>
-                                <li className="pagesList"><a className="PagesLink" href="#">Women</a></li>
-                                <li className="pagesList"><a className="PagesLink" href="#">Kids</a></li>
-                                <li className="pagesList"><a className="PagesLink" href="#">contact</a></li>
+                                <li className="pagesList"><Link className="PagesLink" to="Home">Home</Link></li>
+                                <li className="pagesList"><Link className="PagesLink" to="Mens">Men's</Link></li>
+                                <li className="pagesList"><Link className="PagesLink" to="Womens">Women's</Link></li>
+                                <li className="pagesList"><Link className="PagesLink" to="Juniors">Junior's</Link></li>
+                                <li className="pagesList"><Link className="PagesLink" to="Accessories">Accessories</Link></li>
                                 
                             </ul>
                         </div>
