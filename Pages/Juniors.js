@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import Kids1 from "../assets/kids1.jpg"
 import Kids2 from "../assets/kids2.jpg"
 import Kids3 from "../assets/kids3.jpg"
@@ -11,31 +12,31 @@ function Juniors() {
                 <div className="container">
                     <div className="row">
                         <div className="col-4">
-                            <img className="banner" src={Kids1} alt="shirt" />
+                            <Link to="Kids1"><img className="banner" src={Kids1} alt="shirt" /></Link>
                             <p className="details">OFTR Patch Pocket Button Down Shirt <br /> PKR 1,890</p>
 
                         </div>
                         <div className="col-4">
-                            <img className="banner" src={Kids2} alt="shirt" />
+                            <Link to="Kids2"><img className="banner" src={Kids2} alt="shirt" /></Link>
                             <p className="details">Frill Hem & Sleeve Shirt <br /> PKR 1,890</p>
                         </div>
                         <div className="col-4">
-                            <img className="banner" src={Kids3} alt="shirt" />
+                            <Link to="Kids3"><img className="banner" src={Kids3} alt="shirt" /></Link>
                             <p className="details">Broad Checkered Button Down Shirt <br /> PKR 1,690</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-4">
-                            <img className="banner" src={Kids4} alt="shirt" />
+                            <Link to="Kids4"><img className="banner" src={Kids4} alt="shirt" /></Link>
                             <p className="details">Basic Button Down Shirt with Tie <br /> PKR 1,590</p>
 
                         </div>
                         <div className="col-4">
-                            <img className="banner" src={Kids5} alt="shirt" />
+                            <Link to="Kids5"><img className="banner" src={Kids5} alt="shirt" /></Link>
                             <p className="details">Checkered Button Down Shirt <br /> PKR 1,490</p>
                         </div>
                         <div className="col-4">
-                            <img className="banner" src={Kids6} alt="shirt" />
+                            <Link to="Kids6"><img className="banner" src={Kids6} alt="shirt" /></Link>
                             <p className="details">Striped Jumpsuit <br /> PKR 1,890</p>
                         </div>
                     </div>

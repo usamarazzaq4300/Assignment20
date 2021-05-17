@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import mens1 from "../assets/mens1.jpg"
 import mens2 from "../assets/mens2.jpg"
 import mens3 from "../assets/mens3.jpg"
@@ -18,26 +19,26 @@ function Mens() {
 
                     </div>
                     <div className="col-4">
-                        <img className="banner" src={mens2} alt="shirt" />
+                       <Link to="Mens2"><img className="banner" src={mens2} alt="shirt" /></Link>
                         <p className="details">Button Down Textured Shirt <br /> PKR 2,490</p>
                     </div>
                     <div className="col-4">
-                        <img className="banner" src={mens3} alt="shirt" />
+                        <Link to="Mens3"><img className="banner" src={mens3} alt="shirt" /></Link>
                         <p className="details">Lace Up Trainers <br /> PKR 3,990</p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-4">
-                        <img className="banner" src={mens4} alt="shirt" />
+                        <Link to="Mens4"><img className="banner" src={mens4} alt="shirt" /></Link>
                         <p className="details">Basic Joggers <br /> PKR 2,290</p>
 
                     </div>
                     <div className="col-4">
-                        <img className="banner" src={mens5} alt="shirt" />
+                        <Link to="Mens5"><img className="banner" src={mens5} alt="shirt" /></Link>
                         <p className="details">Trainers with Contrast Sole <br /> PKR 3,990</p>
                     </div>
                     <div className="col-4">
-                        <img className="banner" src={mens6} alt="shirt" />
+                        <Link to="Mens6"><img className="banner" src={mens6} alt="shirt" /></Link>
                         <p className="details"> Regular Tapered Jeans <br /> PKR 2,890</p>
                     </div>
                 </div>
